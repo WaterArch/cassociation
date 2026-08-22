@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(46, 49, 70);
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+#join{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+#joinlabel{
+    margin: 5px;
+}
+#joininput{
+    border: none;
+    margin: 5px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+#joinbutton{
+    margin: 5px;
+    height: 35px;
+    width: 50px;
+}
+
+#players{
+    display: flex;
+    flex-direction: row;
+}
+
+.player{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#timer{
+    padding: 10px;
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+#overlay{
+    background-color: black;
+    -webkit-user-drag: none;
+    pointer-events: auto;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+    opacity: 0.5;
+    position: absolute;
+}
+
+#guessbutton {
+    height: 25px;
+    width: 50px;
+}
+
+#guessinput {
+    height: 25px;
+}

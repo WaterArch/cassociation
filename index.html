@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smth</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "join">
+        <label id = "joinlabel"> Name: </label>
+        <input id = "joininput"> </input>
+        <button id = "joinbutton"> Join </button>
+    </div>
+    <div id = "overlay"> </div>
+    <div inert id = "game">
+        <div id = "players">
+            <div class = "player" >
+                <div id = "player1"> Player 1 </div>
+                <div id = "word1"> </div>
+            </div>
+            <div class = "player" >
+                <div id = "player2"> Player 2 </div>
+                <div id = "word2"> </div>
+            </div>
+            <div class = "player" >
+                <div id = "player3"> Player 3 </div>
+                <div id = "word3"> </div>
+            </div>
+        </div>
+        <div id = "guess">
+            <input id = 'guessinput'></input>
+            <button id = 'guessbutton'> Guess </button>
+        </div>
+    </div>
+
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src = "script.js"> </script>
+</body>
+</html>
